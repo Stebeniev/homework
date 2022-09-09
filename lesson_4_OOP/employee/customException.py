@@ -1,0 +1,2 @@
+class EmailAlreadyExitsException(Exception):
+    pass
