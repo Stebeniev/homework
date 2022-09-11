@@ -1,11 +1,12 @@
 from employee.customException import EmailAlreadyExitsException
 from employee.employee import Employee
 import traceback
-import datetime
+from datetime import datetime
 
 
 def main():
     emp = Employee('Alex', 'Administrator', 25, 'qwerty@gmail.com')
+    print(emp)
 
 if __name__ == '__main__':
     try:
